@@ -5,21 +5,21 @@ class GitHydrate < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/c9r/git-hydrate/releases/download/v0.1.1/git-hydrate-aarch64-apple-darwin.tar.xz"
-      sha256 "a594f36b01f98c1cd4fd41c8e427f25609f964c0240d4af2180ce81e0e8a2cb6"
+      sha256 "0f5a065e92afd8f668199e35b45b3d17a9764a3d17a4b623a0d574f420246f3c"
     end
     if Hardware::CPU.intel?
       url "https://github.com/c9r/git-hydrate/releases/download/v0.1.1/git-hydrate-x86_64-apple-darwin.tar.xz"
-      sha256 "0d8573c79c9eebbf55798fb402da0529d929e0c2037172616157e4787a71cd5e"
+      sha256 "e7a69ad3665b14f54df9cf41c365a6bc3fb48cf5cebc10076990a03ad83b2021"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/c9r/git-hydrate/releases/download/v0.1.1/git-hydrate-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b78d645bc6deb82202db333e7c3219046c94392c78184bcdab1440a370d4dc34"
+      sha256 "a505e4e9c6d96a2d63d1c0433edab3f9f469dee825420f3793d268daf72cb29f"
     end
     if Hardware::CPU.intel?
       url "https://github.com/c9r/git-hydrate/releases/download/v0.1.1/git-hydrate-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c8ee78d15650b185fc593e58d0e2eb1a0acbe35699033b33bd66a4850c2e12dc"
+      sha256 "90de3d544591409b629b3a53f6acaf6712eb0f0c8d89ec9455845c82d77cd774"
     end
   end
   license "MIT"
