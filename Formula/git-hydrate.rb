@@ -1,25 +1,25 @@
 class GitHydrate < Formula
   desc "Large files in an object store, pointers in git, one copy on disk"
   homepage "https://github.com/c9r/git-hydrate"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/c9r/git-hydrate/releases/download/v0.1.2/git-hydrate-aarch64-apple-darwin.tar.xz"
-      sha256 "b3f735d4164b30ac4d0942324619f5452dc4c23b8f06b4a4ab19e61fbe00f08e"
+      url "https://github.com/c9r/git-hydrate/releases/download/v0.1.3/git-hydrate-aarch64-apple-darwin.tar.xz"
+      sha256 "07a1fab68123162075a8ca1c323dfcbb19a64d03da55339798a0974ed01ffe04"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/c9r/git-hydrate/releases/download/v0.1.2/git-hydrate-x86_64-apple-darwin.tar.xz"
-      sha256 "d93f000692e8922028dfee352aa04da34e8d1da2b373c111dbc881ef0c96e83d"
+      url "https://github.com/c9r/git-hydrate/releases/download/v0.1.3/git-hydrate-x86_64-apple-darwin.tar.xz"
+      sha256 "12dc4695f1aa7ecc3e00fc3c10191f821ff6aaa820d59c3570b827f444732896"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/c9r/git-hydrate/releases/download/v0.1.2/git-hydrate-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "11aac3dbd8bae895a6f7455152c46e248c7f0ebbd821d95791a966a58e5bb2ef"
+      url "https://github.com/c9r/git-hydrate/releases/download/v0.1.3/git-hydrate-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f430553bf4fae33105520f8a5c3749382e188a90c4792b9c06dfcb9a71af3dc0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/c9r/git-hydrate/releases/download/v0.1.2/git-hydrate-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a20081ae6703d2205cf5d6812f3fe3a4d33eb5d2f3df9c0134f9c362c56a31b1"
+      url "https://github.com/c9r/git-hydrate/releases/download/v0.1.3/git-hydrate-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1d022236d8a140525a2bf5f290d41ad43b05ac46a3fd59c5715a9c4ded5d07cf"
     end
   end
   license "MIT"
